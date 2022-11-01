@@ -7,7 +7,7 @@ function MyButton({ count, onClick }) {
 
 export default function App() {
   /* Each MyButton Component doesn't have it's own seperate 
-  / counter */
+  / counter */ 
   const [count, setCount] = useState(1);
 
   function handleClick() {
